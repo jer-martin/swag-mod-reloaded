@@ -1,0 +1,16 @@
+[
+{
+  "modid": "swagmod",
+  "name": "Swag Mod",
+  "description": "swag mod",
+  "version": "${Alpha 1.0}",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["the boys"],
+  "credits": "the boys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
