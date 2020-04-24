@@ -1,5 +1,7 @@
 package com.theboys.swagmod.items;
 
+import com.theboys.swagmod.Main;
+import com.theboys.swagmod.init.ModItems;
 import com.theboys.swagmod.util.IHasModel;
 
 import net.minecraft.item.Item;

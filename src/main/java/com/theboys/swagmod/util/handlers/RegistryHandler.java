@@ -13,13 +13,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class RegistryHandler {
 
     @SubscribeEvent
-    public static void onItemRegister(RegistryEvent.Register<Item> event);
+    public static void onItemRegister(RegistryEvent.Register<Item> event)
     {
       event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
-    public static void onModelRegister(ModelRegistryEvent event);
+    public static void onModelRegister(ModelRegistryEvent event) {
     {
       for(Item item : ModItems.ITEMS)
       {
@@ -28,5 +28,6 @@ public class RegistryHandler {
           ((IHasModel)item).registerModels();
         }
       }
+    }
     }
 }
